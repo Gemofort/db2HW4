@@ -117,7 +117,7 @@ main {
   -webkit-box-direction: normal;
   flex-direction: column;
   height: 400px;
-  width: calc(100% - 500px);
+  width: calc(100% - 400px);
   padding: 40px 40px;
   background-color: #FFFFFF;
   border-radius: 4px;
@@ -189,8 +189,10 @@ main .account-info {
   display: -webkit-box;
   display: flex;
   margin-top: 50px;
-  -webkit-box-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 90%;
+  height: 70%;
 }
 
 main .account-info .photo {
@@ -233,4 +235,536 @@ main .account-info .photo .change img {
 
 main .account-info .photo .change p {
   margin-left: 3px;
+}
+
+main .account-info .infov1 {
+  height: 100%;
+  width: 280px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+main .account-info .infov1 .part {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+main .account-info .infov1 .part .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #546087;
+}
+
+main .account-info .infov1 .part .firstLast {
+  width: 280px;
+  line-height: 40px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+}
+
+main .account-info .infov1 .part .firstLast::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov1 .part .firstLast::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov1 .part .firstLast:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov1 .part .firstLast::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov1 .part .firstLast::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov1 .part .title-choose {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 {
+  height: 100%;
+  width: 310px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+main .account-info .infov2 .part {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+main .account-info .infov2 .part .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #546087;
+}
+
+main .account-info .infov2 .part .firstLast {
+  width: 280px;
+  line-height: 40px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+}
+
+main .account-info .infov2 .part .firstLast::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .firstLast::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .firstLast:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .firstLast::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .firstLast::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .title-choose {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+main .account-info .infov2 .part .title-choose .country {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 20%;
+  height: 40px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  padding: 0px 13px;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text] {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 180px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text]::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text]::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text]:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text]::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info .infov2 .part .title-choose input[type=text]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 {
+  display: -webkit-box;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  width: 90%;
+  height: 70%;
+}
+
+main .account-info2 .infov3 {
+  height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+main .account-info2 .infov3 .part {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .account-info2 .infov3 .part .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #546087;
+}
+
+main .account-info2 .infov3 .part .firstLast {
+  width: 280px;
+  line-height: 40px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+}
+
+main .account-info2 .infov3 .part .firstLast::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov3 .part .firstLast::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov3 .part .firstLast:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov3 .part .firstLast::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov3 .part .firstLast::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 {
+  height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+main .account-info2 .infov4 .part {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main .account-info2 .infov4 .part .title {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #546087;
+}
+
+main .account-info2 .infov4 .part .firstLast {
+  width: 280px;
+  line-height: 40px;
+  padding: 0px 13px;
+  border: 2px solid #F2F2F2;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+}
+
+main .account-info2 .infov4 .part .firstLast::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 .part .firstLast::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 .part .firstLast:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 .part .firstLast::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 .part .firstLast::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  color: #35373B;
+}
+
+main .account-info2 .infov4 .change-password {
+  width: 89%;
+  height: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+
+main .account-info2 .infov4 .change-password .passwd-wrap {
+  width: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+main .account-info2 .infov4 .change-password .passwd-wrap p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  color: #01134E;
 }

@@ -2,7 +2,7 @@ main
   display: flex 
   flex-direction: column
   height: 400px
-  width: calc(100% - 500px)
+  width: calc(100% - 400px)
   padding: 40px 40px
   background-color: $white
   border-radius: 4px
@@ -55,7 +55,9 @@ main
   .account-info
     display: flex
     margin-top: 50px
-    justify-content: flex-start
+    justify-content: space-between
+    width: 90%
+    height: 70%
 
     .photo
       display: flex
@@ -85,4 +87,170 @@ main
         p
           margin-left: 3px
   
-  .infov1
+    .infov1
+      height: 100%
+      width: 280px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .part
+        width: 100%
+        height: 30%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        .title
+          @include font('Roboto', 12px)
+          font-style: normal
+          font-weight: bold
+          line-height: 14px
+          letter-spacing: 1px
+          text-transform: uppercase
+          color: $titleText
+        .firstLast
+          @include firstLastInput()
+        .title-choose
+          display: flex
+          justify-content: space-between
+          align-items: center
+          width: 100%
+          height: 40px
+          padding: 0px 13px
+          border: 2px solid $inputColor
+          border-radius: 4px
+          background-color: $inputBackg
+          @include font('Roboto', 14px)
+          font-style: normal
+          font-weight: normal
+          line-height: 16px
+          letter-spacing: 0.28px
+          color: $inputText
+
+    .infov2
+      height: 100%
+      width: 310px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .part
+        width: 100%
+        height: 30%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        .title
+          @include font('Roboto', 12px)
+          font-style: normal
+          font-weight: bold
+          line-height: 14px
+          letter-spacing: 1px
+          text-transform: uppercase
+          color: $titleText
+        .firstLast
+          @include firstLastInput()
+        .title-choose
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          .country
+            display: flex
+            justify-content: space-around
+            align-items: center
+            width: 20%  
+            height: 40px  
+            border: 2px solid $inputColor
+            border-radius: 4px
+            background-color: $inputBackg
+            padding: 0px 13px
+          input[type=text]
+            display: flex 
+            align-items: center
+            width: 180px
+            padding: 0px 13px
+            border: 2px solid $inputColor
+            border-radius: 4px
+            background-color: $inputBackg
+            &::placeholder
+              @include font('Roboto', 14px)
+              font-style: normal
+              font-weight: normal
+              line-height: 16px
+              letter-spacing: 0.28px
+              color: $inputText
+  .account-info2
+    display: flex
+    margin-top: 50px
+    justify-content: flex-start
+    width: 90%
+    height: 70%
+    .infov3
+      height: 100%
+      width: 40%
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .part
+        width: 100%
+        height: 30%
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        .title
+          @include font('Roboto', 12px)
+          font-style: normal
+          font-weight: bold
+          line-height: 14px
+          letter-spacing: 1px
+          text-transform: uppercase
+          color: $titleText
+        .firstLast
+          @include firstLastInput()
+    
+    .infov4
+      height: 100%
+      width: 40%
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .part
+        width: 100%
+        height: 30%
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        .title
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          @include font('Roboto', 12px)
+          font-style: normal
+          font-weight: bold
+          line-height: 14px
+          letter-spacing: 1px
+          text-transform: uppercase
+          color: $titleText
+        .firstLast
+          @include firstLastInput()
+
+      .change-password
+        width: 89%
+        height: 50%
+        display: flex
+        justify-content: flex-end
+        align-items: flex-start
+        flex-direction: row
+        .passwd-wrap
+          width: 50%
+          display: flex
+          justify-content: space-between
+          align-items: center  
+          p
+            @include font('Roboto', 12px)
+            font-style: normal
+            font-weight: 500
+            line-height: 14px
+            letter-spacing: 0.28px
+            text-transform: uppercase
+
+            color: #01134E
+        
