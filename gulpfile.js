@@ -11,7 +11,7 @@ function style() {
     .pipe(autoprefixer({
       cascade: false
     }))
-    //.pipe(cleanCSS())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 };
@@ -46,7 +46,7 @@ function watch() {
   browserSync.init({
     server: {
       baseDir: './dist',
-      index: 'index.html'
+      index: 'mainpage2.html'
     }
   });
   gulp.watch('./src/sass/**/*.sass', style);

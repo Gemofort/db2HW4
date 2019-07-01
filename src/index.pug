@@ -3,16 +3,16 @@ extends base.pug
 block content
   section.selectmenu
     article.personal-inf.active
-      p PERSONAL INFORMATION
-    article.account-inf
-      p ACCOUNT INFORMATION
+      a(href="#") PERSONAL INFORMATION 
+    article.personal-inf
+      a(href="#") ACCOUNT INFORMATION
   section.account-info
     - const user = {"firstName" : "Faruh", "lastName": "Bernandez", "title": "Mr", "mobilePhone": "+65" }
     article.photo
       img(src="./images/Faruh.jpg", alt="" class="profile-photo")
       .change
         img(src="./images/Pen.svg", alt="")
-        p Change photo
+        a(href="#") Change photo
     article.infov1
       .part
         p.title First Name

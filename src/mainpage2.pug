@@ -3,9 +3,9 @@ extends base.pug
 block content
   section.selectmenu
     article.personal-inf
-      p PERSONAL INFORMATION
-    article.account-inf.active
-      p ACCOUNT INFORMATION
+      a(href="#") PERSONAL INFORMATION
+    article.personal-inf.active
+      a(href="#") ACCOUNT INFORMATION
   section.account-info2
     - const user = {"username": "sarahbarnes", "email": "sarahbbb@gmail.com"}
     article.infov3
@@ -20,5 +20,5 @@ block content
           input(type="text" placeholder=user.email class="firstLast")
       .change-password
         .passwd-wrap
-          p change password
+          a(href="") change password
           img(src="./images/Chevron-right.svg", alt="")
