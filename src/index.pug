@@ -1,0 +1,23 @@
+extends base.pug
+
+block content
+  section.selectmenu
+    article.personal-inf.active
+      p PERSONAL INFORMATION
+    article.account-inf
+      p ACCOUNT INFORMATION
+  section.account-info
+    - const user = {"firstName" : "Faruh", "lastName": "Bernandez", "Title": "Mr", "mobilePhone": "+65" }
+    article.photo
+      img(src="./images/Faruh.jpg", alt="" class="profile-photo")
+      .change
+        img(src="./images/Pen.svg", alt="")
+        p Change photo
+    article.infov1
+      p.title First Name
+      form(action="")
+        input(type="text" placeholder=user.firstName)
+      p.title Title
+      
+
+    article.infov2

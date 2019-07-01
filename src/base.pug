@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    link(rel="stylesheet", href="./css/reset.css")
+    link(rel="stylesheet", href="./css/main.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Exo+2|Roboto&display=swap")
+  body
+    nav
+      .logo
+        img(src="./images/Logo.svg", alt="logo")
+      .icons
+        .icon
+          img(src="./images/Loop.svg", alt="")
+        .icon.active
+          img(src="./images/Profile.svg", alt="")
+        .icon
+          img(src="./images/Mail.svg", alt="")
+        .icon
+          img(src="./images/Schedule.svg", alt="")
+    header
+      .breadcrumbs
+        p Home
+        img(src="./images/Chevron-right.svg", alt="")
+        p My profile
+      .profile-settings
+        p Faruh Bernandez
+        img(src="./images/Chevron-down.svg", alt="")
+    main
+      block content
