@@ -273,6 +273,7 @@ main .account-info .infov1 .part .title {
 }
 
 main .account-info .infov1 .part .firstLast {
+  margin-top: 4px;
   width: 280px;
   line-height: 40px;
   padding: 0px 13px;
@@ -332,6 +333,7 @@ main .account-info .infov1 .part .firstLast::placeholder {
 }
 
 main .account-info .infov1 .part .title-choose {
+  margin-top: 4px;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -389,6 +391,7 @@ main .account-info .infov2 .part .title {
 }
 
 main .account-info .infov2 .part .firstLast {
+  margin-top: 4px;
   width: 280px;
   line-height: 40px;
   padding: 0px 13px;
@@ -448,6 +451,7 @@ main .account-info .infov2 .part .firstLast::placeholder {
 }
 
 main .account-info .infov2 .part .title-choose {
+  margin-top: 4px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: horizontal;
