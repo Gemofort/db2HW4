@@ -46,7 +46,7 @@ function watch() {
   browserSync.init({
     server: {
       baseDir: './dist',
-      index: 'mainpage2.html'
+      index: 'index.html'
     }
   });
   gulp.watch('./src/sass/**/*.sass', style);
